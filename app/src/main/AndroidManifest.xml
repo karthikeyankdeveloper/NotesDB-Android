@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developer.notesdb">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.enter.phone">
+        <activity
+            android:name=".Content"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.enter.phone"
+            android:windowSoftInputMode="stateHidden"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoard"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.enter.phone" />
+        <activity
+            android:name=".OtpVerify"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.enter.phone" />
+        <activity
+            android:name=".EnterPhone"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.enter.phone" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

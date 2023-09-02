@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "552513097672",
+    "project_id": "notes-db-karthik",
+    "storage_bucket": "notes-db-karthik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552513097672:android:3a45383e2dc9530d6cbafd",
+        "android_client_info": {
+          "package_name": "com.developer.notesdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552513097672-1295q63h04fai1njfa152jlfrd79f1bf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.notesdb",
+            "certificate_hash": "0643e99bd86bc6768c852612b1806d33dbd91e03"
+          }
+        },
+        {
+          "client_id": "552513097672-oob5ss8ud685dargebv02njirs77v4s9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXDC0N1_qJFQbcTb5J-aifUawdWAST9XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552513097672-oob5ss8ud685dargebv02njirs77v4s9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
